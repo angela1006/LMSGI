@@ -1,0 +1,65 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+}
+
+/* Estilos para encabezados */
+h1 {
+    color: #333;
+    font-size: 20px;
+}
+h2 {
+    color: #666;
+    font-size: 16px;
+}
+
+/* Estilos para párrafos y listas */
+p, li {
+    color: #000;
+    font-size: 16px;
+}
+
+/* Estilos para la tabla */
+table {
+    width: auto;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+caption {
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 16px;
+    color: #000;
+}
+
+/* Colores de fondo de la tabla */
+thead th {
+    background-color: #666;
+    color: white;
+}
+
+tbody td {
+    background-color: #fff;
+}
+
+tfoot td {
+    background-color: #ccc;
+    text-align: center;
+}
+
+/* Estilos para el enlace */
+a {
+    color: blue;
+    font-size: 16px;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,68 @@
+/* Estilo general para todas las fuentes */
+body {
+    font-family: "Courier New", Courier, monospace;
+}
+
+/* Estilo para el primer párrafo con id "intro" */
+#intro {
+    background-color: gray;
+    color: white;
+    padding: 5px;
+}
+
+/* Estilo para los encabezados h1 normales y especiales */
+h1 {
+    font-size: 2em;
+    color: black;
+}
+
+h1.especial {
+    color: blue;
+}
+
+/* Estilo para h2 y h3 con borde sólido naranja */
+h2, h3 {
+    border: 1px solid orange;
+    padding: 5px;
+
+}
+
+/* Estilo para los elementos de primer y segundo nivel de listas */
+ul > li {
+    color: red;
+}
+
+ul ul > li {
+    color: green;
+}
+
+/* Estilo para las imágenes dentro de un párrafo */
+img {
+    border: 5px solid black;
+    width: 100px;
+    height: auto;
+}
+
+/* Estilo para las imágenes con alt "segunda" */
+img[alt="segunda"] {
+    border-color: red;
+    width: 100px;
+    height: auto;
+}
+
+/* Estilo para el h3 "Antes" y el párrafo siguiente */
+h3:first-of-type {
+    background-color: white;
+    color: black;
+}
+
+h3 {
+    background-color: pink; /* Esto se aplica al h3 "Después" */
+}
+
+/* Estilo para el h3 "Después" y el párrafo anterior */
+p + h3 {
+    background-color: blue; /* Esto se aplica al h3 "Después" */
+}
+
+

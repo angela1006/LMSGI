@@ -1,0 +1,64 @@
+/* Estilos generales */
+body {
+    background-color: #eeeeee;
+    color: black;
+    text-align: justify;
+    font-family: sans-serif;
+}
+
+/* Estilos para h1 */
+h1 {
+    color: #333333;
+    font-size: 200%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Estilos para h2 */
+h2 {
+    background-color: #888888;
+    color: red;
+    font-size: 150%;
+    text-transform: capitalize;
+}
+
+/* Estilos para h3 */
+h3 {
+    background-color: #aaaaaa;
+    color: darkmagenta;
+    font-size: 130%;
+}
+
+/* Estilos para los párrafos */
+p {
+    background-color: #cccccc;
+    line-height: 150%;
+    padding: 5px;
+}
+
+/* Estilos para la etiqueta address */
+address {
+    background-color: white;
+    font-style: normal;
+    text-align: right;
+    padding: 5px;
+}
+
+/* Estilos para la etiqueta em */
+em {
+    color: blue;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Estilos para la etiqueta strong */
+strong {
+    color: blue;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.year{
+    color:green
+}
